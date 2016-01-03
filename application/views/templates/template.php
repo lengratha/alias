@@ -1,0 +1,10 @@
+<?php
+		$this->load->view('templates/header');
+		$this->load->view('templates/header_top');
+		$this->load->view('templates/header_menu');
+		$this->load->view('templates/slider');
+		$this->load->view('templates/category_n_ads');
+		$this->load->view('page/'.$main_page);
+		$this->load->view('templates/pop-item');
+		$this->load->view('templates/footer');
+?>
